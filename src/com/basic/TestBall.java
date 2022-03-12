@@ -4,7 +4,7 @@ public class TestBall {
 	public static void main(String[] args) {
 		// Test constructor and toString()
 		Ball ball = new Ball(1.1f, 2.2f, 10, 3.3f, 4.4f);
-		System.out.println(ball);
+		System.out.println(ball); // toString()
 
 		// Test Setters and Getters
 		ball.setX(80.0f);
